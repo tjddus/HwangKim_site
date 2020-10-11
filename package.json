@@ -1,0 +1,35 @@
+{
+  "name": "HwangKim_site",
+  "version": "1.0.0",
+  "description": "HwangKim_site",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjddus/HwangKim_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjddus/HwangKim_site/issues"
+  },
+  "homepage": "https://github.com/tjddus/HwangKim_site#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/theme-default": "^1.6.0",
+    "vuepress": "^1.6.0"
+  },
+  "dependencies": {
+    "generator-vuepress": "0.0.23",
+    "yo": "^3.1.1"
+  }
+}
